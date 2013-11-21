@@ -55,3 +55,6 @@ fi
 # Directory
 alias	md='mkdir -p'
 alias	rd='rmdir'
+
+# List only directories
+alias lsd='ls -l | grep "^d"'
